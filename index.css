@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+* {
+  font-family: 'Montserrat';
+}
+
+body, h1, h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-width: fit-content;
+  background: rgb(253,187,45);
+  background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color:#bab9b9;
+  border-bottom: 1px solid #bab9b9;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+
+}
+
+.name-text {
+  font-size: 17px;
+  color:#696868;
+  font-weight: bold;
+  font-style: italic
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+
+.mainbox {
+  background-color: bisque;
+  width:610px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ebebeb;
+  padding: 30px;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 34px; 
+}
+
+
+@font-face {
+  font-family: 'GasoekOne-Regular' ;
+  src: url('./font/GasoekOne-Regular.woff') format('woff');
+}
+
+.about-me-text {
+  font-family:'GasoekOne-Regular';
+  text-align: left;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.title-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
+}
+
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+}
+
+.float-wrap {
+  overflow: hidden;
+}
+
+.desc-text{
+  font-size: 9px;
+}
+
+
+.desc-subtext{
+  font-size: 9px;
+  color: #282828;
+  padding-left:16px;
+}
+
+.title-box {
+  text-align: right;
+  margin-left: 43%;
+}
+
+.title-check{
+  display:flex;
+}
+.title-img{
+  width: 100px;
+  height: 100px;
+}
+
+
+.sns-img {
+  width: 12px;
+  height: 12px;
+}
+
+.sns-wrap {
+  text-align: right;
+}
+
+.links>a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.contact{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+.footer>p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+  margin-top: 5px;
+}
